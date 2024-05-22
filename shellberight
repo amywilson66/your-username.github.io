@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She'll Be Right</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #3a6ea5;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #28527a;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #3a6ea5;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #3a6ea5;
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>She'll Be Right</h1>
+        <p>Your go-to for support when moving abroad, or moving back home.</p>
+    </header>
+    <nav>
+        <a href="#why-we-exist">Why We Exist</a>
+        <a href="#how-we-started">How We Started</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="why-we-exist" class="section">
+            <h2>Why We Exist</h2>
+            <p>She'll Be Right was created to provide comprehensive support for individuals and families moving abroad or returning home. We understand the challenges that come with relocating, whether it's adjusting to a new culture, finding accommodation, or dealing with the emotional aspects of leaving a familiar environment. Our mission is to make these transitions as smooth and stress-free as possible.</p>
+        </div>
+        <div id="how-we-started" class="section">
+            <h2>How We Started</h2>
+            <p>Our journey began when a group of expatriates and repatriates shared their experiences and realized the common struggles they faced. We saw a need for a service that could provide practical advice, emotional support, and a sense of community. From those early conversations, She'll Be Right was born. Today, we are a dedicated team of professionals committed to helping others navigate the complexities of moving abroad or returning home.</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you have any questions or need assistance, please don't hesitate to reach out to us. We're here to help!</p>
+            <p>Email: support@shellberight.com</p>
+            <p>Phone: +61 2 1234 5678</p>
+            <p>Address: 123 Sydney Road, Sydney, NSW, Australia</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 She'll Be Right. All rights reserved.</p>
+    </footer>
+</body>
+</html>
